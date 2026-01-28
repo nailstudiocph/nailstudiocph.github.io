@@ -46,7 +46,7 @@ nav a{color:var(--accent);}
   border-radius: 30px;
 }
 
-.trust {
+.trust,.location {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -61,6 +61,9 @@ nav a{color:var(--accent);}
 
 .services, .gallery, .location{
   padding: 4rem 2rem;
+}
+.intro{
+  padding: 4rem;
 }
 .services {
   text-align: center;
