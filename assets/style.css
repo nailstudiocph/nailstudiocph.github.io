@@ -84,7 +84,6 @@ nav,.logo {text-align: center;}
 
     display: block;
     background: #ddd;
-    aspect-ratio: 1 / 1;
     border-radius: 12px;
   }
 }
@@ -96,13 +95,10 @@ nav,.logo {text-align: center;}
 }
 
 
-
-.compare{padding-top:4rem}
 .comparison {
 	position: relative;
 	overflow: hidden;
   border-radius: 1rem;
-  max-width:800px;
 	.lhs, .lhs-wrapper{position:absolute;top:0;left:0}
 	.lhs{display:block;max-width:none}
 	.lhs-wrapper{height:100%;width:50%;overflow:hidden}
